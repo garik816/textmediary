@@ -1,0 +1,276 @@
+/*Стили для портретной ориентации*/
+@media (orientation: portrait) {
+
+    .heading{
+        position: fixed;
+        display: block;
+        background: #000000; /* Цвет фона под заголовком */
+        height: 50px;
+        width: 100%;
+        /*position: relative;*/
+        top: 1rem;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .heading h1{
+        background: #000000;
+        color: #000000; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        font-size: 33%;
+        position: absolute;
+        top: 90%;
+        right: 17%;
+        margin: 0 4px 0 0;
+        transform: translate(50%, -50%);
+    }
+
+    .heading logo{
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        font-size: 33px;
+        position: absolute;
+        top: 50%;
+        right: 17%;
+        margin: 0 0 0 0;
+        transform: translate(35%, -50%);
+    }
+    .heading img{
+        user-select: none;
+        position: absolute;
+        top: 50%;
+        left: 17%;
+        margin: 0 0 0 0;
+        transform: translate(-50%, -50%);
+        width: 86px;
+        height: 50px;
+    }
+
+    .flags{
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        z-index: 10;
+    }
+
+    .feed{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 17%;
+        right: 17%;
+        transform: translate(0%, -50%)
+    }
+
+    .message{
+        display: block;
+        background-image: url("../source/blackoverlay-darker.png");
+        color: #FFFFFF;
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        text-align: center;
+    }
+
+    .message h2 {
+        margin: 11px 0 11px 0;
+    }
+
+    .message p{
+        padding: 0 9%;
+        font-size: 18px;
+        margin: 0 0 0 0;
+    }
+
+    .round {
+        border-radius: 6px; /* Радиус скругления */
+    }
+
+    .social{
+        display: block;
+        user-select: none;
+        position: relative;
+        text-align: left;
+        left: 5px;
+        bottom: -73px;
+        margin-right: 12em;
+    }
+
+    .contacts{
+        display: block;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    .inline_left{
+        display: inline-flex;
+        align-self: flex-start;
+    }
+
+    .inline_right{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 7px;
+    }
+
+    .left{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+    }
+
+    .right{
+        display: block;
+        position: fixed;
+        top: 50%;
+        right: 5%;
+    }
+
+    .buttons{
+        display: block;
+        position: fixed;
+        width: 100%;
+        top: 90%;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .column{
+        margin: 15px 0 15px 0;
+    }
+
+
+    .button{
+        height: 30px;
+        width: 70px;
+        margin: 0 10px;
+        background: #000000; /* Цвет фона под заголовком */
+        padding: 0 18.5px;
+        font-size: 10px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    }
+
+    .flex-horizontal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-vertical{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(0%, -50%);
+    }
+
+    .pricelist{
+        position: absolute;
+        left: 17%;
+        margin-left: 0;
+        padding: 0 18.5px;
+        transform: translate(-50%, 0%);
+    }
+
+    .requisites {
+        position: absolute;
+        right: 17%;
+        margin-right: 0;
+        padding: 0 21px;
+        transform: translate(50%, 0);
+    }
+
+    a {
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        color: #FFFFFF; /* Цвет текста */
+        text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    }
+
+    .message contacts a:hover {
+        text-decoration: underline; /* Добавляем подчеркивание */
+    }
+
+    .button:hover {
+        background: #666666;
+    }
+
+    ::selection {
+        color: #333333; /* Цвет текста */
+        background: #FFFFFF; /* Цвет фона */
+    }
+
+    .no_select{
+        user-select: none;
+    }
+
+
+    img{
+        padding: 1px 2px;
+        vertical-align: bottom;
+    }
+
+
+    .copyright{
+        position: fixed;
+        display: block;
+        background: #000000; /* Цвет фона под заголовком */
+        width: 100%;
+        /*position: absolute;*/
+        bottom: 1%;
+        margin: 0;
+        padding: 6px 0;
+        font-size: 10px;
+    }
+
+    .copyright p {
+        text-align: center;
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .copyright uppercase {
+        text-transform: uppercase;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .slider__container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .slider__items {
+        counter-reset: slide;
+    }
+
+    .slider__item {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        counter-increment: slide;
+        height: auto;
+        position: relative;
+        border-radius: 6px; /* Радиус скругления */
+    }
+
+    .slider__item::before {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        color: #fff;
+        font-style: italic;
+        font-size: 32px;
+        font-weight: bold;
+        display: block;
+    }
+}
